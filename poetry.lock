@@ -1,16 +1,16 @@
 [[package]]
 category = "main"
-description = "Agraffe, build API with ASGI in Google Cloud Functions."
+description = "Agraffe, build API with ASGI in Serverless services (e.g AWS lambda, Google Cloud Functions). "
 name = "agraffe"
 optional = false
 python-versions = ">=3.7"
-version = "0.1.0"
+version = "0.2.0"
 
 [package.dependencies]
 typing-extensions = ">=3.7.4,<4.0.0"
 
 [package.extras]
-dev = ["mypy (>=0.782,<1.0)", "black (>=20.8b1)", "isort (>=5.5.0,<6.0.0)", "flake8 (>=3.8.3,<4.0.0)", "functions-framework (>=2.0.0,<3.0.0)"]
+dev = ["mypy (>=0.782,<1.0)", "black (>=20.8b1)", "isort (>=5.5.0,<6.0.0)", "flake8 (>=3.8.3,<4.0.0)"]
 
 [[package]]
 category = "main"
@@ -63,14 +63,14 @@ python-versions = "*"
 version = "3.7.4.3"
 
 [metadata]
-content-hash = "2a4d522eace8c0c99de6ccaa8c6404f4cceba6207976e9c36430adb58478bb92"
+content-hash = "8d334004829c592d3a8d7e3d1cc2a5244fe8b61ac976b4287fd33223f5eedc30"
 lock-version = "1.0"
 python-versions = "^3.7"
 
 [metadata.files]
 agraffe = [
-    {file = "agraffe-0.1.0-py3-none-any.whl", hash = "sha256:70f10e6e23c68c5f9d14d63cb61b6db8e298ca71b8b1b631b0c1920afe6f4758"},
-    {file = "agraffe-0.1.0.tar.gz", hash = "sha256:e8d05ec87542318dd95c710b096107e567f77725122a65c28276fdeade9c6ab8"},
+    {file = "agraffe-0.2.0-py3-none-any.whl", hash = "sha256:c5f761e643542f6287886f4e2f299f24129686bf4f39eef324dfdfa3aada02f6"},
+    {file = "agraffe-0.2.0.tar.gz", hash = "sha256:f95ea6dffb0d78b9b50e7170dba9c89886da72b783fad411ed48e4bb07311eab"},
 ]
 fastapi = [
     {file = "fastapi-0.61.1-py3-none-any.whl", hash = "sha256:6cc31bb555dd8ca956d1d227477d661e4ac012337242a41d36214ffbda78bfe9"},
